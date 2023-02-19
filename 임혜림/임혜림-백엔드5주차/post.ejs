@@ -1,0 +1,9 @@
+<%- include('./top.ejs')%>
+    <h1>Add post</h1>
+    <form action="/post" method="post">
+        <label for="title">제목</label><br>
+        <input type="text" id="tittle" name="title"><br><br>
+        <label for="description">내용</label><br>
+        <input type="text" id="description"><br><br>
+        <button type="submit">제출</button>
+    </form>

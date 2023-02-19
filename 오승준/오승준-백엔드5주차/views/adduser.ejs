@@ -1,0 +1,26 @@
+<%- include('./includes/top.ejs') %>
+  <h1>Adduser</h1>
+  <form action="/adduser" method="post">
+    <label for="name"> 이름</label><br>
+    <input type="text" id = "name" name="name">
+    <br><br>
+
+    <label for="age"> 나이</label><br>
+    <input type="text" id = "age" name="age">
+    <br><br>
+
+    <label for="birth"> 생년월일</label><br>
+    <input type="text" id = "birth" name="birth">
+    <br><br>
+
+    <label for="job"> 직업</label><br>
+    <input type="text" id = "job" name="job">
+    <br><br>
+
+    <label for="address"> 주소</label><br>
+    <input type="text" id = "address" name="address">
+    <br><br>
+    
+    <button type ="submit">제출</button>
+  </form>
+<%- include('./includes/bottom.ejs') %>

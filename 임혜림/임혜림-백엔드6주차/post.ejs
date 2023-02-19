@@ -1,0 +1,8 @@
+<%- include('./top.ejs')%>
+    <h1><%=post.tittle%></h1>
+    <h1><%=post.content%></h1>
+    <form action="/delete-post" methond="POST">
+        <input type="text" value="<%=post._id%>"name="postId">
+        <button type="submit">삭제</button>
+    </form>
+    <button>삭제</button>

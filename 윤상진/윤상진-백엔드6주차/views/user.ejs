@@ -1,0 +1,21 @@
+<%- include('./includes/top.ejs') %>
+    <h1>Add User</h1>
+    <form action="/user" method="post">
+        <label for="firstName">First Name</label><br>
+        <input type="text" id="firstName" name="firstName">
+        <br><br>
+        <label for="secondName">Second Name</label><br>
+        <input type="text" id="secondName" name="secondName">
+        <br><br>
+        <label for="phone">전화번호</label><br>
+        <input type="text" id="phone" name="phone">
+        <br><br>
+        <label for="email">이메일</label><br>
+        <input type="text" id="email" name="email">
+        <br><br>
+        <label for="address">거주지</label><br>
+        <input type="text" id="address" name="address">
+        <br><br>
+        <button type="submit">제출</button>
+    </form>
+    <%- include('./includes/bottom.ejs') %>

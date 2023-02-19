@@ -1,0 +1,21 @@
+<% - include('./includes/top.ejs') %>
+    <h1>User information</h1>
+    <form action="/user" method="post">
+        <label for="name">이름</label><br>
+        <input type="test" id="name" name="name"><br><br>
+
+        <label for="birth">생일</label><br>
+        <input type="test" id="birth" name="birth"><br><br>
+
+        <label for="gender">성별</label><br>
+        <input type="gender" id="gender" name="gender"><br><br>
+
+        <label for="school">학교명</label><br>
+        <input type="school" id="school" name="school"><br><br>
+
+        <label for="age">나이</label><br>
+        <input type="age" id="age" name="age"><br><br>
+
+        <button type="submit">제출</button>
+    </form>
+    <%- include('./includes/bottom.ejs') %>
