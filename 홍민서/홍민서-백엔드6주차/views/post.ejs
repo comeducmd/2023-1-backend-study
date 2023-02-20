@@ -1,0 +1,8 @@
+<%- include('./includes/top.ejs') %>
+  <h1><%= post.title %></h1>
+  <p><%= post.content %></p>
+  <form action="/delete-post" method="POST">
+    <input type="hidden" value="<%= post._id %>" name="postId">
+    <button type="submit">삭제</button>
+  </form>
+<%- include('./includes/bottom.ejs') %>

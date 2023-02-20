@@ -1,0 +1,8 @@
+<%- include('./includes/top.ejs') %>
+  <h1>Home</h1>
+  <ul>
+    <% for (post of posts) { %>
+      <li><a href="/post/<%= post._id %>"><%= post.title %></a></li>
+    <% } %>
+  </ul>
+<%- include('./includes/bottom.ejs') %>

@@ -1,0 +1,12 @@
+<%- include('./includes/top.ejs') %>
+  <h1>Add Post</h1>
+  <form action="/add-post" method="POST">
+    <label for="title">제목</label><br>
+    <input type="text" id="title" name="title">
+    <br><br>
+    <label for="content">내용</label><br>
+    <textarea id="content" name="content" cols="30" rows="10"></textarea>
+    <br><br>
+    <button type="submit">제출</button>
+  </form>
+<%- include('./includes/bottom.ejs') %>
