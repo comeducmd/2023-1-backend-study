@@ -1,0 +1,17 @@
+<%- include('./includes/top.ejs') %>
+  <div class="container">
+    <h1 class="mt-4">Add Post</h1>
+    <form action="/add-post" method="POST">
+      <div class="mb-3">
+        <label for="title" class="form-label">제목</label>
+        <input type="text" class="form-control" id="title" name="title">
+      </div>
+      <div class="mb-3">
+        <label for="content" class="form-label">내용</label>
+        <textarea id="content" class="form-control" name="content" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">제출</button>
+      <a class="btn btn-secondary" href="/">취소</a>
+    </form>
+  </div>
+<%- include('./includes/bottom.ejs') %>

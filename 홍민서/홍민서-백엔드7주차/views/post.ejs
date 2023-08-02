@@ -1,0 +1,11 @@
+<%- include('./includes/top.ejs') %>
+  <div class="container">
+    <h1 class="mt-4"><%= post.title %></h1>
+    <p><%= post.content %></p>
+    <a class="btn btn-primary" href="/edit-post/<%= post._id %>">수정</a>
+    <form action="/delete-post" method="POST" style="display: inline-block;">
+      <input type="hidden" value="<%= post._id %>" name="postId">
+      <button type="submit" class="btn btn-secondary">삭제</button>
+    </form>
+  </div>
+<%- include('./includes/bottom.ejs') %>
