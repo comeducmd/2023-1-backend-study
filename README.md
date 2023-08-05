@@ -1,8 +1,8 @@
 # CMD 백엔드 스터디
 ## 실습 코드
-[스터디원 제출 코드 (현재 페이지)](https://github.com/comeducmd/2023-winter-backend-study)
+[스터디원 제출 코드 (현재 페이지)](https://github.com/comeducmd/2023-1-backend-study)
 
-[실습 정답 코드](https://github.com/comeducmd/2023-winter-backend-study-solution)
+[실습 정답 코드](https://github.com/comeducmd/2023-1-backend-study-solution)
 ## 스터디 정보
 ### 스터디 기간
 2023 상반기 겨울방학
